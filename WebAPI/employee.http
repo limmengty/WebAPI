@@ -1,0 +1,25 @@
+#### Get request
+GET https://locahost:7192/employees
+
+
+#### Get request by  id
+GET https://locahost:7192/employees/1
+
+#### Get request
+POST https://locahost:7192/employees
+Content-Type:application/json
+{
+    "Id": 4,
+    "Name": "Mengty"
+}
+
+#### Get request
+PUT https://locahost:7192/employees
+Content-Type:application/json
+{
+    "Id": 4,
+    "Name": "Koko"
+}
+
+#### Get request by  id
+DELETE https://locahost:7192/employees/1
